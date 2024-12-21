@@ -1,0 +1,57 @@
+Airline,Available Seat KM,Incidents (85-99),Incidents (00-14),Total Incidents
+Cathay Pacific*,2582459303,0,0,0
+Hawaiian Airlines,493877795,0,0,0
+TAP - Air Portugal,619130754,0,0,0
+Austrian Airlines,358239823,1,0,1
+Finnair,506464950,1,0,1
+Gulf Air,301379762,1,0,1
+Qantas*,1917428984,1,0,1
+Southwest Airlines,3276525770,1,0,1
+Virgin Atlantic,1005248585,1,0,1
+Aer Lingus,320906734,2,0,2
+Air Canada,1865253802,2,0,2
+El Al,335448023,1,1,2
+Kenya Airways,277414794,2,0,2
+Air India*,869253552,2,1,3
+Air New Zealand*,710174817,3,0,3
+Condor,417982610,2,1,3
+South African,651502442,2,1,3
+Sri Lankan / AirLanka,325582976,2,1,3
+SWISS*,792601299,2,1,3
+Aeromexico*,596871813,3,1,4
+All Nippon Airways,1841234177,3,1,4
+British Airways*,3179760952,4,0,4
+COPA,550491507,3,1,4
+Japan Airlines,1574217531,3,1,4
+Malaysia Airlines,1039171244,3,1,4
+Singapore Airlines,2376857805,2,2,4
+TACA,259373346,3,1,4
+Alaska Airlines*,965346773,5,0,5
+Iberia,1173203126,4,1,5
+LAN Airlines,1001965891,3,2,5
+SAS*,682971852,5,0,5
+Aerolineas Argentinas,385803648,6,0,6
+Lufthansa*,3426529504,6,1,7
+Avianca,396922563,5,3,8
+KLM*,1874561773,7,1,8
+Royal Air Maroc,295705339,5,3,8
+Alitalia,698012498,7,2,9
+Saudi Arabian,859673901,7,2,9
+Vietnam Airlines,625084918,7,3,10
+Xiamen Airlines,430462962,9,1,10
+Egyptair,557699891,8,3,11
+Pakistan International,348563137,8,3,11
+Philippine Airlines,413007158,7,4,11
+TAM,1509195646,8,3,11
+Turkish Airlines,1946098294,8,3,11
+Thai Airways,1702802250,8,4,12
+Garuda Indonesia,613356665,10,3,13
+Korean Air,1734522605,12,5,17
+Air France,3004002661,14,4,18
+China Airlines,813216487,12,6,18
+US Airways / America West*,2455687887,16,7,23
+American*,5228357340,21,5,26
+United / Continental*,7139291291,19,8,27
+Ethiopian Airlines,488560643,25,5,30
+Delta / Northwest*,6525658894,24,12,36
+Aeroflot*,1197672318,76,14,90

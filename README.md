@@ -1,47 +1,50 @@
-# CensusDataPopulationSorting
+# Airline Safety Data Sorting Program
 
-## US Census Population Data Sorting Program
+## Overview
 
-This repository contains a C++ program designed to read, process, and sort US Census population data for states and territories. The program implements two sorting algorithms—Bubble Sort and Selection Sort—to organize the data based on specific fields, including total population. The results are displayed in the console and written to separate output files.
-
----
+This C++ program processes and sorts airline safety data from a CSV file. The dataset includes information about airlines, available seat kilometers, and incidents reported in two different time periods. The program uses Bubble Sort and Selection Sort algorithms to organize the data based on the total number of incidents and outputs the results in both the console and separate CSV files.
 
 ## Features
 
-- **Data Input**: Reads data from a CSV file (`CensusData.csv`) containing the following fields:
-  - State or territory name
-  - Total population
-  - Adult population
-  - Percentage of adults in the population
+### Input
 
-- **Sorting Algorithms**:
-  - **Bubble Sort**: Implements an iterative approach for sorting and displays the sorted data in descending order by total population.
-  - **Selection Sort**: Implements a comparison-based sorting method and displays the sorted data in descending order by total population.
+- Reads airline safety data from a CSV file (`airline-safety.csv`), containing:
+  - Airline name
+  - Available seat kilometers per week
+  - Number of incidents (1985–1999)
+  - Number of incidents (2000–2014)
 
-- **Output**: Generates two CSV files, `DataBubbleSorted.csv` and `DataSelectionSorted.csv`, containing the sorted data.
+### Sorting Algorithms
+
+#### Bubble Sort
+
+- Sorts airline data in ascending order based on the total number of incidents.
+- Displays the sorted data in the console.
+- Writes the sorted data to `DataBubbleSorted.csv`.
+
+#### Selection Sort
+
+- Sorts airline data in ascending order based on the total number of incidents.
+- Displays the sorted data in the console.
+- Writes the sorted data to `DataSelectionSorted.csv`.
+
+### Output
+
+- Displays the unsorted data, Bubble Sorted data, and Selection Sorted data in the console.
+- Outputs sorted data to respective CSV files:
+  - `DataBubbleSorted.csv`
+  - `DataSelectionSorted.csv`
 
 ### Additional Features
-- Option to use a custom input file for extra credit, requiring detailed comments at the top of the source code describing:
-  - The file structure
-  - The sort field
-  - Whether the sorting is in ascending or descending order
-- Displays detailed information about the number of swaps made by each sorting algorithm.
 
----
+- Shows the total number of swaps performed by each sorting algorithm.
+- Provides a neatly formatted console display of the data for better readability.
 
 ## How to Run
 
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/YourUsername/CensusDataPopulationSorting.git
-2. Compile the program
-   ```bash
-   g++ -o CensusSorter <YourFirstName><YourLastName>_CS22_Program4.cpp
-3. Place the Census.csv file (inputFile) in the same directory
-    - Display the unsorted data.
-    - Sort the data using Bubble Sort and Selection Sort.
-    - Display the sorted data.
-    - Generate output files for each sorting algorithm.
+### Clone the repository
 
-## Author
-Rothvitou Meng
+```bash
+git clone https://github.com/YourUsername/AirlineSafetyDataSorting.git
+cd AirlineSafetyDataSorting
+```
